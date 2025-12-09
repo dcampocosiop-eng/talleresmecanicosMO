@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller Mecánico - Talleres M.O.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <img src="img/logoBlanco1.png" alt="Logo Talleres M.O." class="logo-img">
+                </div>
+                <div class="logo-text">
+                    <h1>Talleres Mecánicos y Exportaciones M.O.</h1>
+                    <p>Expertos en mecánica y exportación de vehículos</p>
+                </div>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav>
+                <ul id="mainMenu">
+                    <li><a href="principal.html">Inicio</a></li>
+                    <li><a href="taller.html" class="active">Taller</a></li>
+                    <li><a href="exportacion.html">Exportación</a></li>
+                    <li><a href="#contacto" class="btn btn-contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main>
+        <!-- Hero Section Taller -->
+        <section class="hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80')">
+            <div class="container">
+                <h2>Taller Mecánico Especializado</h2>
+                <p>Servicios de reparación, mantenimiento y diagnóstico para todo tipo de vehículos. Calidad, garantía y profesionalidad.</p>
+                <a href="#contacto" class="btn">Solicitar Presupuesto</a>
+            </div>
+        </section>
+        
+        <!-- Sección de Servicios del Taller -->
+        <section id="servicios-taller">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Nuestros Servicios de Taller</h2>
+                    <p>Ofrecemos una amplia gama de servicios para mantener su vehículo en perfecto estado.</p>
+                </div>
+                
+                <div class="services-container">
+                    <div class="service-card">
+                        <div class="service-img">
+                            <img src="img/repmot.jpg" alt="Reparación de motor">
+                        </div>
+                        <div class="service-content">
+                            <h3>Reparación de Motor</h3>
+                            <p>Diagnóstico y reparación de problemas en el motor, desde sobrecalentamiento hasta fallas de encendido.</p>
+                            <ul class="service-list">
+                                <li>Cambio de correas de distribución</li>
+                                <li>Reparación de sobrecalentamiento</li>
+                                <li>Cambio de junta de culata</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-img">
+                            <img src="img/frenosysusp.jpg" alt="Frenos y suspensión">
+                        </div>
+                        <div class="service-content">
+                            <h3>Frenos y Suspensión</h3>
+                            <p>Revisión y reparación del sistema de frenos y suspensión para garantizar su seguridad en la carretera.</p>
+                            <ul class="service-list">
+                                <li>Cambio de pastillas y discos de freno</li>
+                                <li>Reparación de amortiguadores</li>
+                                <li>Alineación y balanceo de ruedas</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-img">
+                            <img src="img/diagnosticoE.jpg" alt="Diagnóstico electrónico">
+                        </div>
+                        <div class="service-content">
+                            <h3>Diagnóstico Electrónico</h3>
+                            <p>Uso de tecnología avanzada para identificar problemas en los sistemas electrónicos del vehículo.</p>
+                            <ul class="service-list">
+                                <li>Escaneo de computadora a bordo</li>
+                                <li>Diagnóstico de sistemas de seguridad</li>
+                                <li>Reparación de centralitas electrónicas</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-img">
+                            <img src="img/mantnimientoprev.jpg" alt="Mantenimiento preventivo">
+                        </div>
+                        <div class="service-content">
+                            <h3>Mantenimiento Preventivo</h3>
+                            <p>Servicios programados para prevenir averías y alargar la vida útil de su vehículo.</p>
+                            <ul class="service-list">
+                                <li>Cambio de aceite y filtros</li>
+                                <li>Revisión de líquidos</li>
+                                <li>Inspección general del vehículo</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-img">
+                            <img src="img/sistemaE.jpg" alt="Sistema eléctrico">
+                        </div>
+                        <div class="service-content">
+                            <h3>Sistema Eléctrico</h3>
+                            <p>Reparación y mantenimiento de todo el sistema eléctrico del vehículo.</p>
+                            <ul class="service-list">
+                                <li>Reparación de alternador y batería</li>
+                                <li>Sistema de iluminación</li>
+                                <li>Electricidad del motor</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-img">
+                            <img src="img/airea.jpg" alt="Aire acondicionado">
+                        </div>
+                        <div class="service-content">
+                            <h3>Aire Acondicionado</h3>
+                            <p>Mantenimiento y reparación del sistema de climatización del vehículo.</p>
+                            <ul class="service-list">
+                                <li>Recarga de gas refrigerante</li>
+                                <li>Limpieza de conductos</li>
+                                <li>Reparación de compresor</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sección de Por qué elegirnos -->
+        <section id="por-que-elegirnos" style="background-color: #f0f0f0;">
+            <div class="container">
+                <div class="section-title">
+                    <h2>¿Por qué elegir nuestro taller?</h2>
+                    <p>Ventajas de confiar en Talleres M.O. para el mantenimiento de su vehículo</p>
+                </div>
+                
+                <div class="features-container">
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h3>Mecánicos Certificados</h3>
+                        <p>Nuestro equipo está formado por profesionales con certificaciones oficiales de las principales marcas.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Garantía en Todos los Servicios</h3>
+                        <p>Todas nuestras reparaciones cuentan con garantía por escrito para su tranquilidad.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Tecnología de Vanguardia</h3>
+                        <p>Contamos con equipos de diagnóstico de última generación para una reparación precisa.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Servicio Rápido</h3>
+                        <p>Respetamos su tiempo con servicios eficientes y entrega en el plazo acordado.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Contacto para Taller -->
+        <section id="contacto">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Contáctenos para su Taller</h2>
+                    <p>Solicite presupuesto para cualquier servicio de nuestro taller mecánico.</p>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form id="contactFormTaller">
+                        <div class="form-group">
+                            <label for="nombre-taller">Nombre completo *</label>
+                            <input type="text" id="nombre-taller" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email-taller">Correo electrónico *</label>
+                            <input type="email" id="email-taller" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="telefono-taller">Teléfono *</label>
+                            <input type="tel" id="telefono-taller" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="vehiculo-taller">Vehículo (Marca, Modelo, Año) *</label>
+                            <input type="text" id="vehiculo-taller" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="servicio-taller">Servicio requerido *</label>
+                            <select id="servicio-taller" class="form-control" required>
+                                <option value="">Seleccione un servicio</option>
+                                <option value="motor">Reparación de motor</option>
+                                <option value="frenos">Frenos y suspensión</option>
+                                <option value="electronica">Diagnóstico electrónico</option>
+                                <option value="mantenimiento">Mantenimiento preventivo</option>
+                                <option value="electrico">Sistema eléctrico</option>
+                                <option value="aire">Aire acondicionado</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mensaje-taller">Descripción del problema *</label>
+                            <textarea id="mensaje-taller" class="form-control" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Solicitar Presupuesto</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-column">
+                    <h3>Talleres M.O.</h3>
+                    <p>Expertos en mecánica automotriz y exportación de vehículos con más de 20 años de experiencia en el sector.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contacto</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Calle Principal 123, Ciudad</p>
+                    <p><i class="fas fa-phone"></i> +34 123 456 789</p>
+                    <p><i class="fas fa-envelope"></i> info@talleresmo.com</p>
+                    <p><i class="fas fa-clock"></i> Lunes a Viernes: 8:00 - 19:00</p>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Enlaces rápidos</h3>
+                    <a href="principal.html">Inicio</a>
+                    <a href="taller.html">Taller Mecánico</a>
+                    <a href="exportacion.html">Exportación</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Talleres Mecánicos y Exportaciones M.O. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Configurar el formulario de contacto para taller
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactFormTaller = document.getElementById('contactFormTaller');
+            if (contactFormTaller) {
+                contactFormTaller.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    const nombre = document.getElementById('nombre-taller').value;
+                    const servicio = document.getElementById('servicio-taller').value;
+                    
+                    alert(`Gracias ${nombre}, hemos recibido su solicitud para el servicio de ${servicio}. Nos pondremos en contacto para proporcionarle un presupuesto.`);
+                    
+                    contactFormTaller.reset();
+                });
+            }
+        });
+    </script>
+</body>
+</html>
